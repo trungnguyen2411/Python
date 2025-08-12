@@ -32,6 +32,7 @@ while True:
             break
 
 print("Bye!")
+prỉnt("n")
 
 
 
