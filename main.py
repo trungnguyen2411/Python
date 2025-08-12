@@ -33,7 +33,6 @@ while True:
 
 print("Bye!")
 print("Nguyên")
-print("Nguyên")
 
 
 
