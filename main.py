@@ -1,4 +1,5 @@
 while True:
+    # Get user input and strip space chars from it:
     user_action = input("Type add, show, edit, complete or exit: ")
     user_action = user_action.strip()
 
@@ -6,22 +7,24 @@ while True:
         case 'add':
             todo = input("Enter a todo: ") + "\n"
 
-            file = open('files/subfiles/todos.txt', 'r')
+            file = open('todos.txt', 'r')
             todos = file.readlines()
             file.close()
 
             todos.append(todo)
 
-            file = open('files/subfiles/todos.txt', 'w')
+            file = open('todos.txt', 'w')
             file.writelines(todos)
             file.close()
         case 'show':
-            file = open('files/subfiles/todos.txt', 'r')
+            file = open('todos.txt', 'r')
             todos = file.readlines()
             file.close()
 
+            # new_todos = [item.strip('\n') for item in todos]
+
             for index, item in enumerate(todos):
-                item = item.title()
+                item = item.strip('\n')
                 row = f"{index + 1}-{item}"
                 print(row)
         case 'edit':
@@ -36,9 +39,3 @@ while True:
             break
 
 print("Bye!")
-
-
-
-
-
-
