@@ -1,4 +1,4 @@
-1:
+# 1:
 file_a = open("../a.txt", "r")
 file_a = file_a.read()
 print(file_a)
@@ -11,7 +11,7 @@ file_c = open("../c.txt", "r")
 file_c = file_c.read()
 print(file_c)
 
-2:
+# 2:
 filenames = ["a.txt", "b.txt", "c.txt"]
 
 for filename in filenames:
@@ -20,7 +20,7 @@ for filename in filenames:
     print(content)
 
 
-Solution:
+# Solution:
 filenames = ['a.txt', 'b.txt', 'c.txt']
 
 for filename in filenames:

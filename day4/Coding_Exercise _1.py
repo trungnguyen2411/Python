@@ -2,7 +2,7 @@ dollars = float(input("Enter the amount in dollars: "))
 euros = dollars * 2
 print(euros)
 
-Solution:
+# Solution:
 rate = 2
 
 dollars = float(input("How many dollars have you got? "))

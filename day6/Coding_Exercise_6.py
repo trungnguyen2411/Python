@@ -5,7 +5,7 @@ for filename, text in zip(filenames, texts):
     file.writelines(text)
 
 
-Solution:
+# Solution:
 filenames = ['doc.txt', 'report.txt', 'presentation.txt']
 
 for filename in filenames:

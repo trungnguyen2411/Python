@@ -5,6 +5,6 @@ file.write(snail)
 file.close()
 
 
-Solution:
+# Solution:
 with open("file.txt", "w") as file:
     file.write("snail")

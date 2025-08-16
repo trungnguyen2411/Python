@@ -8,7 +8,7 @@ match country_variable:
     case "Germany":
         print("Hallo")
 
-Solution:
+# Solution:
 country = "India"
 
 match country:

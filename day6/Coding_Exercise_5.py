@@ -9,7 +9,7 @@ file = open("../members.txt", "w")
 names = file.writelines(names)
 file.close()
 
-Solution:
+# Solution:
 member = input("Add a new member: ")
 
 file = open("members.txt", 'r')
