@@ -1,8 +1,6 @@
-user_prompt = "Enter a todo:"
+with open("../files/doc.txt") as file:
+    file.read()
+    content = file.read()
 
-todos = []
-
-while True:
-    todo = input(user_prompt)
-    print(todo.title())
-    todos.append(todo)
+print(content)
+print(content)
